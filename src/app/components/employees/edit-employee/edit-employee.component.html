@@ -29,7 +29,8 @@
                 <input type="text" class="form-control" id="department"name="department" [(ngModel)]="employeeDetails.department">
               </div>
           
-            <button type="submit" class="btn btn-primary mt-2">Save</button>
+            <button type="submit" class="btn btn-primary mt-2 mx-1">Save</button>
+            <button type="button" class="btn btn-danger mt-2" (click)="deleteEmloyee(employeeDetails.id)">Delete</button>
           </form>
     </div>
    </div>
